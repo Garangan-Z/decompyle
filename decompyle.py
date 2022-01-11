@@ -24,7 +24,7 @@ gr = '\x1b[37m'
 pb = '\x1b[47m'
 cout = 0
 
-def ArielSandyPermana(s):
+def RakaAndrianTara(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -70,7 +70,7 @@ def main():
                 bo = marshal.dumps(ni)
                 ab = repr(bo)
                 s = open(out, 'w')
-                s.write('#Code Ecrypted By Tech Baba  \nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
+                s.write('#Code Ecrypted By Raka Andrian Tara  \nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
                 s.close()
                 while True:
                     if cot >= cout:
@@ -79,7 +79,7 @@ def main():
                         bx = marshal.dumps(dn)
                         nl = repr(bx)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
                         ns.close()
                         cout += 1
                         continue
@@ -101,7 +101,7 @@ def main():
                 bo = marshal.dumps(ni)
                 ab = repr(bo)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
                 s.close()
                 while True:
                     if cot >= cout:
@@ -110,7 +110,7 @@ def main():
                         bx = marshal.dumps(dn)
                         nl = repr(bx)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
                         ns.close()
                         cout += 1
                         continue
@@ -118,7 +118,7 @@ def main():
                 mx = open(out).read()
                 nl = base64.b32encode(mx)
                 xn = open(out, 'w')
-                xn.write("#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b32decode('%s'))\n" % nl)
+                xn.write("#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b32decode('%s'))\n" % nl)
                 xn.close()
                 print '\x1b[34m[\x1b[31m!\x1b[34m] \x1b[37mDone \x1b[32m[ \x1b[37m%s \x1b[32m] \x1b[37m!' % out
                 raw_input('%s[%s\xe2\x9d\x97%s] %sBack %s\xe2\x9e\xa4 %s' % (b, m, b, gr, i, cg))
@@ -137,7 +137,7 @@ def main():
                 bo = marshal.dumps(ni)
                 ab = repr(bo)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(ab) + '))')
                 s.close()
                 while True:
                     if cot >= cout:
@@ -146,7 +146,7 @@ def main():
                         bx = marshal.dumps(dn)
                         nl = repr(bx)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(nl) + '))')
                         ns.close()
                         cout += 1
                         continue
@@ -154,7 +154,7 @@ def main():
                 mx = open(out).read()
                 nl = base64.b32encode(mx)
                 xn = open(out, 'w')
-                xn.write("#Coded By Tech Baba\nimport base64\nexec(base64.b32decode('%s'))\n" % nl)
+                xn.write("#Coded By Raka Andrian Tara\nimport base64\nexec(base64.b32decode('%s'))\n" % nl)
                 xn.close()
                 print '\x1b[34m[\x1b[31m!\x1b[34m] \x1b[37mDone \x1b[32m[ \x1b[37m%s \x1b[32m] \x1b[37m!' % out
                 raw_input('%s[%s\xe2\x9d\x97%s] %sBack %s\xe2\x9e\xa4 %s' % (b, m, b, gr, i, cg))
@@ -198,12 +198,12 @@ def main():
             _bLos = compile(bva, '<tegarid>', 'exec')
             _vjd = marshal.dumps(_bLos)
             gz = repr(_vjd)
-            bgx.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(gz) + '))')
+            bgx.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(gz) + '))')
             bgx.close()
             py_compile.compile(js)
             gb = open(js + 'c').read()
             bi = open(js, 'w')
-            bi.write(gb + '\n\n\n\tOBFUSCATE BY Tech Baba \n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR!\n\n')
+            bi.write(gb + '\n\n\n\tOBFUSCATE BY Raka Andrian Tara \n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR!\n\n')
             bi.close()
             os.system('rm ' + js + 'c')
             print '\x1b[34m[\x1b[31m!\x1b[34m] \x1b[37mDone \x1b[32m[ \x1b[37m%s \x1b[32m] \x1b[37m!' % js
@@ -308,14 +308,14 @@ def main():
                 oa = open(file).read()
                 xs = zlib.compress(oa)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport zlib\nexec(zlib.decompress(' + repr(xs) + '))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport zlib\nexec(zlib.decompress(' + repr(xs) + '))')
                 s.close()
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
                         ci = zlib.compress(nz)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport zlib\nexec(zlib.decompress(' + repr(ci) + '))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport zlib\nexec(zlib.decompress(' + repr(ci) + '))')
                         ns.close()
                         cout += 1
                         continue
@@ -335,14 +335,14 @@ def main():
                 oa = open(file).read()
                 xs = base64.b64encode(oa)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b64decode("' + xs + '"))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b64decode("' + xs + '"))')
                 s.close()
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
                         ci = base64.b64encode(nz)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b64decode("' + ci + '"))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b64decode("' + ci + '"))')
                         ns.close()
                         cout += 1
                         continue
@@ -359,14 +359,14 @@ def main():
                 oa = open(file).read()
                 xs = base64.b16encode(oa)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b16decode("' + xs + '"))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b16decode("' + xs + '"))')
                 s.close()
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
                         ci = base64.b16encode(nz)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b16decode("' + ci + '"))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b16decode("' + ci + '"))')
                         ns.close()
                         cout += 1
                         continue
@@ -383,14 +383,14 @@ def main():
                 oa = open(file).read()
                 xs = base64.b32encode(oa)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b32decode("' + xs + '"))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b32decode("' + xs + '"))')
                 s.close()
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
                         ci = base64.b32encode(nz)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport base64\nexec(base64.b32decode("' + ci + '"))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nexec(base64.b32decode("' + ci + '"))')
                         ns.close()
                         cout += 1
                         continue
@@ -409,14 +409,14 @@ def main():
                 cotn = marshal.dumps(cpa)
                 xs = base64.b64encode(cotn)
                 s = open(out, 'w')
-                s.write('#Code Encrypted By Tech Baba\nimport base64\nimport marshal\nexec marshal.loads(base64.b64decode("' + xs + '"))')
+                s.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nimport marshal\nexec marshal.loads(base64.b64decode("' + xs + '"))')
                 s.close()
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
                         ci = base64.b32encode(nz)
                         ns = open(out, 'w')
-                        ns.write('#Code Encrypted By Tech Baba\nimport base64\nimport marshal\nexec marshal.loads(base64.b64decode("' + ci + '"))')
+                        ns.write('#Code Encrypted By Raka Andrian Tara\nimport base64\nimport marshal\nexec marshal.loads(base64.b64decode("' + ci + '"))')
                         ns.close()
                         cout += 1
                         continue
