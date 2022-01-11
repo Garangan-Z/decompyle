@@ -462,12 +462,12 @@ def main():
             _bLos = compile(bva, '<tegarid>', 'exec')
             _vjd = marshal.dumps(_bLos)
             gz = repr(_vjd)
-            bgx.write('#Code Encrypted By Tech Baba\nimport marshal\nexec(marshal.loads(' + str(gz) + '))')
+            bgx.write('#Code Encrypted By Raka Andrian Tara\nimport marshal\nexec(marshal.loads(' + str(gz) + '))')
             bgx.close()
             py_compile.compile(js)
             gb = open(js + 'c').read()
             bi = open(js, 'w')
-            bi.write(gb + '\n\n\n\tOBFUSCATE BY Tech Baba\n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR !\n\n')
+            bi.write(gb + '\n\n\n\tOBFUSCATE BY Raka Andrian Tara\n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR !\n\n')
             bi.close()
             os.system('rm ' + js + 'c')
             print '\x1b[34m[\x1b[31m!\x1b[34m] \x1b[37mDone \x1b[32m[ \x1b[37m%s \x1b[32m] \x1b[37m!' % js
@@ -510,7 +510,7 @@ def main():
             py_compile.compile(js)
             gb = open(js + 'c').read()
             bi = open(js, 'w')
-            bi.write(gb + '\n\n\n\tOBFUSCATE BY Tech Baba\n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR !\n\n')
+            bi.write(gb + '\n\n\n\tOBFUSCATE BY Raka Andrian Tara\n\tINFO : DONT TRY TO EDIT OTHER WISE YOUR ECRYPT FILE EROR !\n\n')
             bi.close()
             os.system('rm ' + js + 'c')
             print '\x1b[34m[\x1b[31m!\x1b[34m] \x1b[37mDone \x1b[32m[ \x1b[37m%s \x1b[32m] \x1b[37m!' % js
